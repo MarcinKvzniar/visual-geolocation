@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Dataset files, recreated by the acquisition script.
+# Anchored so src/visual_geolocation/data/ stays tracked.
+/data/
+/outputs/
+
+# Local project notes
+/docs/
+
+# Run artifacts: checkpoints, logs, predictions, figures
+/outputs/**
+!/outputs/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+runs/
+wandb/
+lightning_logs/
+
+# Secrets and local settings
+.env
+.env.*
+.claude/settings.local.json
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store

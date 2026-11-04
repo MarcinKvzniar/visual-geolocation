@@ -1,0 +1,73 @@
+[project]
+name = "visual-geolocation"
+version = "0.1.0"
+description = "Predicting region and GPS coordinates from street-level images (OpenStreetView-5M)."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "cartopy>=0.26.0",
+    "huggingface-hub>=2.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "pillow>=13.0.0",
+    "pyarrow>=26.0.1",
+    "scikit-learn>=1.9.1",
+    "tqdm>=4.70.1",
+]
+
+# Deep learning stack. Pick exactly one: `cpu` on the laptop, `gpu` on the training PC.
+# torch stays at 2.14.1 because the CUDA 13.0 index has no newer build.
+[project.optional-dependencies]
+cpu = [
+    "timm>=1.0.31",
+    "torch==2.14.1",
+    "torchvision==0.29.1",
+]
+gpu = [
+    "timm>=1.0.31",
+    "torch==2.14.1",
+    "torchvision==0.29.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.3",
+]
+
+[build-system]
+requires = ["uv_build>=0.10,<0.11"]
+build-backend = "uv_build"
+
+[tool.uv]
+conflicts = [[{ extra = "cpu" }, { extra = "gpu" }]]
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cpu", extra = "cpu" },
+    { index = "pytorch-cu130", extra = "gpu" },
+]
+torchvision = [
+    { index = "pytorch-cpu", extra = "cpu" },
+    { index = "pytorch-cu130", extra = "gpu" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.ruff]
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

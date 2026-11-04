@@ -15,5 +15,12 @@ uv sync --extra gpu    # CUDA 13.0
 
 ## Data
 
-The dataset is not included in this repository. Instructions for recreating the subset will be added
-along with the acquisition script.
+The images are not included in this repository. To download them into `data/images/` (about 8 GB, an
+estimated 3 hours), run this from the repository root:
+
+```bash
+uv run python -m visual_geolocation.data.download
+```
+
+Run it again to resume an interrupted download. The list of images and their splits is in
+`configs/subset.parquet`. Delete that file to rebuild it from the dataset's metadata (about 3 GB).

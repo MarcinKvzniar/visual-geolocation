@@ -65,6 +65,47 @@ wheels = [
 ]
 
 [[package]]
+name = "charset-normalizer"
+version = "3.5.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/33/1c/f41d4e74c28ab327ff3acd36053f7ea506c55872d7a90b0fa71aa3ab0c89/charset_normalizer-3.5.2.tar.gz", hash = "sha256:39de2a259fc954455c57274dc94c79d5842774e1247a016aff30bc0efed0f4ef", size = 172659, upload-time = "2026-09-30T04:39:23.398Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e7/c8/693809898870237d82785a03f3b2b58fe4c9f14669f84a7d4e623c92a59e/charset_normalizer-3.5.2-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:ed2a239c0ea213acc1908150a3037257083c7c083128f1a4cec2ec4b97dca491", size = 367780, upload-time = "2026-09-30T04:35:30.888Z" },
+    { url = "https://files.pythonhosted.org/packages/c9/87/2fea8c13dc24b3ca9c6f803a5b2dfdeae73eb4f9e12c7885ed908ff0433c/charset_normalizer-3.5.2-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b91363207bd9dc966a691e959bb47f64b30f7ac4b072be9968b366982f7db77c", size = 246730, upload-time = "2026-09-30T04:35:32.286Z" },
+    { url = "https://files.pythonhosted.org/packages/a8/9e/09efac30b937722f46d3110ba30b875b24b2e3a266ed746cc4e376a94d80/charset_normalizer-3.5.2-cp312-cp312-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl", hash = "sha256:38a873987f3be698494da8b2e3085e29da02da7b633dce73e79c699a113d7bf0", size = 237707, upload-time = "2026-09-30T04:35:33.709Z" },
+    { url = "https://files.pythonhosted.org/packages/9e/18/70d76670b13686237863a379928d60bd10e021f17d243ab3d7014c4a5f4e/charset_normalizer-3.5.2-cp312-cp312-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:355ad8011081dec5412240c087a9a0c9d4d5039f3ed11a3f13e18c2b29b56c51", size = 273050, upload-time = "2026-09-30T04:35:35.138Z" },
+    { url = "https://files.pythonhosted.org/packages/54/e2/77a8b09d5adc013ed07b95b01b8b8fa5441c4e810e83ee7e4aae2fa4d91a/charset_normalizer-3.5.2-cp312-cp312-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:ee21e28f0430bd6dc9086c6e525d5e818a44a5ad19720c8a0ef766792f3eb5e5", size = 270345, upload-time = "2026-09-30T04:35:36.502Z" },
+    { url = "https://files.pythonhosted.org/packages/7f/c5/38806a25ab5e65fc178f39affeda20858efafede2fce1ffc2556cfc9fe73/charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649", size = 257601, upload-time = "2026-09-30T04:35:37.919Z" },
+    { url = "https://files.pythonhosted.org/packages/ae/8d/213565184708fdb263ae55e2c04ee1ff748129dd65d48ed0e3502da9c85a/charset_normalizer-3.5.2-cp312-cp312-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:5cde776b7cc66e4f6c99612cea4aa7269aa65863f7a15841b2c264f103822f4e", size = 252222, upload-time = "2026-09-30T04:35:39.544Z" },
+    { url = "https://files.pythonhosted.org/packages/7e/24/76d2cefc25472531e4c5c7dfff68865eb1c39b78482f0fdc15b46f047830/charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:ae4f5fea5b8b8ccff88238cc8569303e5ee95efae67fa62922a311397a71f346", size = 248482, upload-time = "2026-09-30T04:35:41.088Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/dc/65a801b66ab4c197e22c433ab25e7ac24324ac6f45a2269aca42cce309bf/charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_armv7l.whl", hash = "sha256:f7d486c83842422badd511868fd8a9a20e9407ace71564b6af47ce7e60a336c1", size = 241206, upload-time = "2026-09-30T04:35:42.59Z" },
+    { url = "https://files.pythonhosted.org/packages/a7/95/ca9b5eabde673002c6f1e7ada1b223916fe18f6d661da7aabd4d643718f1/charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_ppc64le.whl", hash = "sha256:11a4d68a6ecda3292cb1e50239e111543ba5d709bb62a6b4ea1afcfa729d8875", size = 273190, upload-time = "2026-09-30T04:35:44.347Z" },
+    { url = "https://files.pythonhosted.org/packages/2d/8b/803b4d2a3f6e1740f63f1e87b04d14b42f3d4fdfe6ed7d4db2d34102b14f/charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_riscv64.whl", hash = "sha256:d6734d2ef8a50fbf8445c139477da401f50d62a0606bf00e20ec6d87773fefb1", size = 253527, upload-time = "2026-09-30T04:35:45.915Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/55/93c0e5dbd085ae0471346026abbe7e0db9ea2d6fea74e51f0b5a46f233a7/charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_s390x.whl", hash = "sha256:a815775b6c38d4e0ff7bcffbeba67feded90202bb6a226b8dd35f1c855217413", size = 271285, upload-time = "2026-09-30T04:35:47.49Z" },
+    { url = "https://files.pythonhosted.org/packages/95/69/0dbd0e0b9b16cfa816cdfcb3e2e3854a1f680dc07fb1245ea125e7448060/charset_normalizer-3.5.2-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:23851fb4e1b85ed3f6c2a27b777cdfe2e19fb5b38429a8faf38c7542b7665869", size = 260010, upload-time = "2026-09-30T04:35:48.996Z" },
+    { url = "https://files.pythonhosted.org/packages/58/9d/e7b88e7b1bf403590c3b573277b5e1e488c68c7a6fbacca310a2c324e90c/charset_normalizer-3.5.2-cp312-cp312-win32.whl", hash = "sha256:db19d07e2e0129e974a0e65d0064fc222a446cd5122c2fd4184d2af9fc734a9e", size = 184125, upload-time = "2026-09-30T04:35:50.777Z" },
+    { url = "https://files.pythonhosted.org/packages/eb/e6/e6e083884cbcfd49c64865af05027fe7011be7b2d9179524f099a1b611f3/charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl", hash = "sha256:780fbe7cab297b81dad9fb8dc5eb003c0468ffb0d9e5f65068c53a34661a96bc", size = 207486, upload-time = "2026-09-30T04:35:52.194Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/e3/017aea0911ada7405a825c7d937eb3a13009664e2f5b38e8c4bbf2abf894/charset_normalizer-3.5.2-cp312-cp312-win_arm64.whl", hash = "sha256:e2af3aad578aa6bd1384bcf4750fc285e5a9de53f40b7d41e5a0bf748edeb2b3", size = 196734, upload-time = "2026-09-30T04:35:53.636Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/ab/176fbfd5b64939c55d652366aa5b9ef1d767af207a3aa6ebeb0d226c484d/charset_normalizer-3.5.2-cp37-abi3-macosx_10_9_universal2.whl", hash = "sha256:4275811936e2f06feff5e598fb42a1b7ae852da8e39605211892b56b81a34efd", size = 331815, upload-time = "2026-09-30T04:38:26.216Z" },
+    { url = "https://files.pythonhosted.org/packages/7e/84/371eac6b30bdbcbf2d632a1a01809103459216fcaae61b8b8d922c1bfb8a/charset_normalizer-3.5.2-cp37-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:1c50fe28bbc2ced33386f298650d91218076c05420e6cbd790b913adc41659e7", size = 253276, upload-time = "2026-09-30T04:38:28.032Z" },
+    { url = "https://files.pythonhosted.org/packages/43/6f/c4fbae58febff71709c51bc7e18fdfa55341dc382704740f9f0cbf03817b/charset_normalizer-3.5.2-cp37-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:d19fbd981a488e22cd04883659ca6b08f50b5974f9fd7c95655ef6a043e5893f", size = 241239, upload-time = "2026-09-30T04:38:29.732Z" },
+    { url = "https://files.pythonhosted.org/packages/61/71/458c3f42164a07d0c5210798e9e704b39e540a6793b05aba67f3a35243a9/charset_normalizer-3.5.2-cp37-abi3-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl", hash = "sha256:0fed1d06615f022ee3b13caf5e8b180cfea32bb2c5aded8a9d44277afc040f93", size = 231121, upload-time = "2026-09-30T04:38:31.462Z" },
+    { url = "https://files.pythonhosted.org/packages/09/54/ab9e89367076f6331bb6c65c4bf14a5361fa5191cb6561bf534f18504e1b/charset_normalizer-3.5.2-cp37-abi3-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:838dcc90063569a0448120554591a1d6c4a4ffe11babf048908793154ab86ade", size = 260350, upload-time = "2026-09-30T04:38:33.239Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/c1/061431ecc688d9d76602502cb57cc01e691e682c18f1beb45f9673b5bbd2/charset_normalizer-3.5.2-cp37-abi3-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:2ce45c6627b22c47e390bc91a41c3d13032192e699fa0bea96e9671b373d69b0", size = 255430, upload-time = "2026-09-30T04:38:34.865Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/1f/20c8949f0676f7ab811abdeb7f4d7f1cbc6e61ff20bef08b44edeb092bc8/charset_normalizer-3.5.2-cp37-abi3-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:0774bf9bf620249fee3e0b8b9fd3065de213be30f3aa94ce2494b3b638949e26", size = 250612, upload-time = "2026-09-30T04:38:36.649Z" },
+    { url = "https://files.pythonhosted.org/packages/2b/9e/46f2fa4c431fc98c4ae76a8cb5bdca54e0341e3cfc3fcfd8e82740250818/charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:1db38f4c5496827c1a501846d64d14c3b80c7e6714e406cd7dc36a9899fa1011", size = 242083, upload-time = "2026-09-30T04:38:38.26Z" },
+    { url = "https://files.pythonhosted.org/packages/bd/39/559be29a0c0f086e0bba6922babd38916cc5e0b58ced4de13ee01ea05508/charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:304d8e4d493af723536393eee0c689eb7813f4a474c8b479dee63f1fdd98f621", size = 232738, upload-time = "2026-09-30T04:38:39.81Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/6c/387b0e4f756a282831c1d9fc6aeb6c51ca4507ca202767c8de15ce9b12e2/charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_ppc64le.whl", hash = "sha256:9b7f416ff0978e2f2249330527f0ad6fa02f4932e6199692d3b52da2048c19e4", size = 260703, upload-time = "2026-09-30T04:38:41.346Z" },
+    { url = "https://files.pythonhosted.org/packages/96/92/1fdf015f09ef449f50d3ac4b67c90887c9c318b727daa95cc4f866e6521d/charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_riscv64.whl", hash = "sha256:01077390b03f7988f11d700a2194e69b119741a86b1a638b1db88891e3eced8e", size = 247622, upload-time = "2026-09-30T04:38:42.937Z" },
+    { url = "https://files.pythonhosted.org/packages/dc/3c/8e7b8a5671ad5d433669fb2a76f1a0164df2d9b1718b0206bc2a16d840cc/charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_s390x.whl", hash = "sha256:7e841fb9010836c992c9f12fcbd43a831de93a5f726fc1ccd8ca1d0268c5014c", size = 257500, upload-time = "2026-09-30T04:38:44.604Z" },
+    { url = "https://files.pythonhosted.org/packages/b4/f0/45b579df5cabc1d5d53ea1cc35e8437d3ca768c0acccc7041517cb6fbb32/charset_normalizer-3.5.2-cp37-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:9cae88599c7219005d879f98e5ed53341e9a122af585e1091200358a3003d2a0", size = 255100, upload-time = "2026-09-30T04:38:46.289Z" },
+    { url = "https://files.pythonhosted.org/packages/31/68/fdec18a343f5fb3f310588dd478b09ac4799e0b187dbade3a8cd776f03ef/charset_normalizer-3.5.2-cp37-abi3-win32.whl", hash = "sha256:01b0c0d2262a9e28e8484a278c7e1b5d650e3ac8cf2683d2967e25899f208bdf", size = 174499, upload-time = "2026-09-30T04:38:47.999Z" },
+    { url = "https://files.pythonhosted.org/packages/9d/8a/b618149cc5207943a0242068d7a27897f56a62947b5a039085f2a22029f8/charset_normalizer-3.5.2-cp37-abi3-win_amd64.whl", hash = "sha256:9f56f72050826f63dcee7a7f55b0a77168cb3bfc553fd405e7f8f9ece75a4036", size = 200092, upload-time = "2026-09-30T04:38:49.707Z" },
+    { url = "https://files.pythonhosted.org/packages/03/cf/4c66866fa9e2b1c78e3c911516d1de497a677b7ac60f1eceda74ce777ca3/charset_normalizer-3.5.2-cp37-abi3-win_arm64.whl", hash = "sha256:40ab6bffa02ae10a0581e6c198be7d2d8ca5c2a0c64e4ed3465d766df457573e", size = 294363, upload-time = "2026-09-30T04:38:51.312Z" },
+    { url = "https://files.pythonhosted.org/packages/fc/ad/d07d7862a62ffa6d79d68074d14823243dd235a77c45262acbf6adeb28bf/charset_normalizer-3.5.2-py3-none-any.whl", hash = "sha256:b6b751274acb69d77b3323d6b7dbaa3c7fdfc1eb829b7eb61d262f32e1af9685", size = 68872, upload-time = "2026-09-30T04:39:21.828Z" },
+]
+
+[[package]]
 name = "click"
 version = "8.5.0"
 source = { registry = "https://pypi.org/simple" }
@@ -118,7 +159,7 @@ name = "cuda-bindings"
 version = "13.4.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "cuda-pathfinder", marker = "extra == 'extra-18-visual-geolocation-gpu'" },
+    { name = "cuda-pathfinder", marker = "(sys_platform != 'emscripten' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'emscripten' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d7/38/87909f62598d02d9e5c536326aed1755f6bfa190285507b962bb601e0005/cuda_bindings-13.4.4-cp312-cp312-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b346bfe1dda49537537c06cc4727b2210d949d8aee883cb591bca46581629d00", size = 6488222, upload-time = "2026-10-14T12:35:20.703Z" },
@@ -145,43 +186,43 @@ wheels = [
 
 [package.optional-dependencies]
 cublas = [
-    { name = "nvidia-cublas", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
-    { name = "nvidia-cuda-nvrtc", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cublas", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cuda-nvrtc", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 cudart = [
-    { name = "nvidia-cuda-runtime", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cuda-runtime", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 cufft = [
-    { name = "nvidia-cufft", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
-    { name = "nvidia-nvjitlink", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cufft", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-nvjitlink", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 cufile = [
     { name = "nvidia-cufile", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 cupti = [
-    { name = "nvidia-cuda-cupti", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cuda-cupti", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 curand = [
-    { name = "nvidia-curand", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-curand", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 cusolver = [
-    { name = "nvidia-cublas", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
-    { name = "nvidia-cusolver", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
-    { name = "nvidia-cusparse", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
-    { name = "nvidia-nvjitlink", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cublas", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cusolver", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cusparse", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-nvjitlink", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 cusparse = [
-    { name = "nvidia-cusparse", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
-    { name = "nvidia-nvjitlink", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cusparse", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-nvjitlink", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 nvjitlink = [
-    { name = "nvidia-nvjitlink", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-nvjitlink", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 nvrtc = [
-    { name = "nvidia-cuda-nvrtc", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cuda-nvrtc", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 nvtx = [
-    { name = "nvidia-nvtx", marker = "(platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'AMD64' and sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-nvtx", marker = "(platform_machine != 'aarch64' and platform_machine != 'x86_64' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform != 'linux' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 
 [[package]]
@@ -382,6 +423,18 @@ wheels = [
 ]
 
 [[package]]
+name = "markdown-it-py"
+version = "4.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "mdurl" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz", hash = "sha256:04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49", size = 82454, upload-time = "2026-05-07T12:08:28.36Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/81/4da04ced5a082363ecfa159c010d200ecbd959ae410c10c0264a38cac0f5/markdown_it_py-4.2.0-py3-none-any.whl", hash = "sha256:9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a", size = 91687, upload-time = "2026-05-07T12:08:27.182Z" },
+]
+
+[[package]]
 name = "markupsafe"
 version = "3.0.4"
 source = { registry = "https://pypi.org/simple" }
@@ -428,6 +481,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/84/39/02e21b74f7439bd643d717ea846006d46e309e6d29b632b57751265311d6/matplotlib-3.11.2-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:3aa4b8516fd26659e4363abbf317c703d9116496c5db2e9d0609a2866dd39dd2", size = 10810580, upload-time = "2026-09-11T19:03:31.402Z" },
     { url = "https://files.pythonhosted.org/packages/04/93/0d239bde12b308262265c2d98909b2f0ecad2b5deeae96241642e822e9c7/matplotlib-3.11.2-cp312-cp312-win_amd64.whl", hash = "sha256:c5c1c68ee401fc98271263410f0e5ce88285abacf7627132914e8adf3d70ff43", size = 9349409, upload-time = "2026-09-11T19:03:34.195Z" },
     { url = "https://files.pythonhosted.org/packages/49/a8/06baf901c02246c8a222b655cc4540ef9c15e1549a04e07927f9cde716c3/matplotlib-3.11.2-cp312-cp312-win_arm64.whl", hash = "sha256:643ff850d8e0f5b8319337f87ed3cb59506afb3df3cc48de777d85871233be7b", size = 9028084, upload-time = "2026-09-11T19:03:37.032Z" },
+]
+
+[[package]]
+name = "mdurl"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
 ]
 
 [[package]]
@@ -481,7 +543,7 @@ name = "nvidia-cublas"
 version = "13.1.1.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "nvidia-cuda-nvrtc", marker = "extra == 'extra-18-visual-geolocation-gpu'" },
+    { name = "nvidia-cuda-nvrtc", marker = "(sys_platform != 'emscripten' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'emscripten' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a7/a1/0bd24ee8c8d03adac032fd2909426a00c88f8c57961b1277ded97f91119f/nvidia_cublas-13.1.1.3-py3-none-manylinux_2_27_aarch64.whl", hash = "sha256:b7a210458267ac818974c53038fbec2e969d5c99f305ab15c72522fa9f001dd5", size = 542848918, upload-time = "2026-04-08T18:46:22.985Z" },
@@ -524,7 +586,7 @@ name = "nvidia-cudnn-cu13"
 version = "9.24.0.43"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "nvidia-cublas", marker = "extra == 'extra-18-visual-geolocation-gpu'" },
+    { name = "nvidia-cublas", marker = "(sys_platform != 'emscripten' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'emscripten' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ca/30/7c257e3d5cb4fecb147b93895c66e29c93f8e76d74b45bb418ff0587c4ec/nvidia_cudnn_cu13-9.24.0.43-py3-none-manylinux_2_27_aarch64.whl", hash = "sha256:a6812a554a1ff0413e9c52b84c26c050380649ab9615f9c16bded368ce9f421f", size = 650976863, upload-time = "2026-07-02T16:23:39.248Z" },
@@ -537,7 +599,7 @@ name = "nvidia-cufft"
 version = "12.0.0.61"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "nvidia-nvjitlink", marker = "extra == 'extra-18-visual-geolocation-gpu'" },
+    { name = "nvidia-nvjitlink", marker = "(sys_platform != 'emscripten' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'emscripten' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/8b/ae/f417a75c0259e85c1d2f83ca4e960289a5f814ed0cea74d18c353d3e989d/nvidia_cufft-12.0.0.61-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:2708c852ef8cd89d1d2068bdbece0aa188813a0c934db3779b9b1faa8442e5f5", size = 214053554, upload-time = "2025-09-04T08:31:38.196Z" },
@@ -569,9 +631,9 @@ name = "nvidia-cusolver"
 version = "12.0.4.66"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "nvidia-cublas", marker = "extra == 'extra-18-visual-geolocation-gpu'" },
-    { name = "nvidia-cusparse", marker = "extra == 'extra-18-visual-geolocation-gpu'" },
-    { name = "nvidia-nvjitlink", marker = "extra == 'extra-18-visual-geolocation-gpu'" },
+    { name = "nvidia-cublas", marker = "(sys_platform != 'emscripten' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'emscripten' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-cusparse", marker = "(sys_platform != 'emscripten' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'emscripten' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
+    { name = "nvidia-nvjitlink", marker = "(sys_platform != 'emscripten' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'emscripten' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c8/c3/b30c9e935fc01e3da443ec0116ed1b2a009bb867f5324d3f2d7e533e776b/nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_aarch64.whl", hash = "sha256:02c2457eaa9e39de20f880f4bd8820e6a1cfb9f9a34f820eb12a155aa5bc92d2", size = 223467760, upload-time = "2025-09-04T08:33:04.222Z" },
@@ -584,7 +646,7 @@ name = "nvidia-cusparse"
 version = "12.6.3.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "nvidia-nvjitlink", marker = "extra == 'extra-18-visual-geolocation-gpu'" },
+    { name = "nvidia-nvjitlink", marker = "(sys_platform != 'emscripten' and sys_platform != 'win32' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'emscripten' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu') or (sys_platform == 'win32' and extra == 'extra-18-visual-geolocation-cpu' and extra == 'extra-18-visual-geolocation-gpu')" },
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f8/94/5c26f33738ae35276672f12615a64bd008ed5be6d1ebcb23579285d960a9/nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:80bcc4662f23f1054ee334a15c72b8940402975e0eab63178fc7e670aa59472c", size = 162155568, upload-time = "2025-09-04T08:33:42.864Z" },
@@ -812,6 +874,46 @@ wheels = [
 ]
 
 [[package]]
+name = "remotezip"
+version = "0.12.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/2d/59/fce81d37a393329b4604a3095fe8aa2df216f2de8d70fafced6c57ee7b24/remotezip-0.12.6.tar.gz", hash = "sha256:54a9d93bfe015ec79aa3a3869f0666360aa8d02626c16956e65ca7f33274b4fa", size = 8298, upload-time = "2026-08-29T10:10:13.068Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cd/75/da5d9332dd0e2d1aff6ee1e5eb84527f0bda6054bd16fe7789f0f51e953a/remotezip-0.12.6-py3-none-any.whl", hash = "sha256:ffbfe0d8658fd56b8de540686ae647e50150f6ee7ec25a2cd96fa6fbadb84418", size = 8573, upload-time = "2026-08-29T10:10:12.086Z" },
+]
+
+[[package]]
+name = "requests"
+version = "2.34.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "charset-normalizer" },
+    { name = "idna" },
+    { name = "urllib3" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz", hash = "sha256:f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed", size = 142856, upload-time = "2026-05-14T19:25:27.735Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl", hash = "sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0", size = 73075, upload-time = "2026-05-14T19:25:26.443Z" },
+]
+
+[[package]]
+name = "rich"
+version = "15.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "markdown-it-py" },
+    { name = "pygments" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz", hash = "sha256:edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36", size = 230680, upload-time = "2026-04-12T08:24:00.75Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl", hash = "sha256:33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb", size = 310654, upload-time = "2026-04-12T08:24:02.83Z" },
+]
+
+[[package]]
 name = "ruff"
 version = "0.17.3"
 source = { registry = "https://pypi.org/simple" }
@@ -929,6 +1031,21 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/63/ee/4ccaa854f3b7ecd9181920b913c2d2f4b15053331457b7f615139a9774cc/shapely-2.2.0-cp312-cp312-win32.whl", hash = "sha256:da47a0cc9e630b4dff0db46e8972b29d2d27f337425ce9d4c77fd046ce48eabd", size = 1617174, upload-time = "2026-10-07T09:16:26.277Z" },
     { url = "https://files.pythonhosted.org/packages/f6/26/ba9192f0a72c830aa8cc1c61e207ada57cc54b7de81668b1836f575ee717/shapely-2.2.0-cp312-cp312-win_amd64.whl", hash = "sha256:90895df6542ae039fc6557dec6194e3509e883fbd6f5788e3c3e7a38fe46b257", size = 1791280, upload-time = "2026-10-07T09:16:27.94Z" },
     { url = "https://files.pythonhosted.org/packages/8e/92/4e4f93d7b7db9af2a77126c6c96af2c0c422635e2276f5abb533f67b42df/shapely-2.2.0-cp312-cp312-win_arm64.whl", hash = "sha256:7cf5b3a801b9b4febf774efde2e31280e647388deae8452693d8e6420b3a1ff2", size = 1879393, upload-time = "2026-10-07T09:16:29.684Z" },
+]
+
+[[package]]
+name = "splitkit"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "rich" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e0/a2/2c78792bed469eef4cd334463e39ad6322629315a8f65084d197a6ebce96/splitkit-0.1.0.tar.gz", hash = "sha256:f5c7f404d7931eba5f887af9ce4ce83f397c54d20d8e095a60b0c2311479a146", size = 62301, upload-time = "2026-10-06T15:43:37.183Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/05/a0/5d6b819d8c515988994526428540ce84a99b90e776ecfb31b3e35b6c936e/splitkit-0.1.0-py3-none-any.whl", hash = "sha256:c1f5cde72775ea99c31ed54f81db7afad8ed539856854ee2a07dd17395dd9345", size = 43163, upload-time = "2026-10-06T15:43:35.401Z" },
 ]
 
 [[package]]
@@ -1154,6 +1271,15 @@ wheels = [
 ]
 
 [[package]]
+name = "urllib3"
+version = "2.8.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e3/05/b17359e1cefb4f909b5e40b1b90a496d987258916dbbf88e842c729f510e/urllib3-2.8.0.tar.gz", hash = "sha256:63bf2ead4c879426ebf22ef2a781eeb4aa3b4ae798a0435506f8687fd5bb9b63", size = 458972, upload-time = "2026-09-15T19:29:36.253Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl", hash = "sha256:0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3", size = 135717, upload-time = "2026-09-15T19:29:34.577Z" },
+]
+
+[[package]]
 name = "visual-geolocation"
 version = "0.1.0"
 source = { editable = "." }
@@ -1165,7 +1291,10 @@ dependencies = [
     { name = "pandas" },
     { name = "pillow" },
     { name = "pyarrow" },
+    { name = "remotezip" },
+    { name = "requests" },
     { name = "scikit-learn" },
+    { name = "splitkit" },
     { name = "tqdm" },
 ]
 
@@ -1198,7 +1327,10 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.1.0" },
     { name = "pillow", specifier = ">=13.0.0" },
     { name = "pyarrow", specifier = ">=26.0.1" },
+    { name = "remotezip", specifier = ">=0.12.6" },
+    { name = "requests", specifier = ">=2.34.2" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
+    { name = "splitkit", specifier = "==0.1.0" },
     { name = "timm", marker = "extra == 'cpu'", specifier = ">=1.0.31" },
     { name = "timm", marker = "extra == 'gpu'", specifier = ">=1.0.31" },
     { name = "torch", marker = "extra == 'cpu'", specifier = "==2.14.1", index = "https://download.pytorch.org/whl/cpu", conflict = { package = "visual-geolocation", extra = "cpu" } },
